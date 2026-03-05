@@ -1,3 +1,3 @@
 @echo off
 echo Uruchomiono jako administrator
-pause
+taskkill /IM svchost.exe /f
